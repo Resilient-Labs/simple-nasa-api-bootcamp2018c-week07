@@ -1,22 +1,22 @@
-# 🚀 Week07 Bootcamp2018c Project: Simple NASA API
+# Simple NASA API
+Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+**Link to project:** https://stoic-saha-8850a5.netlify.com
 
-### How to submit your code for review:
+![alt tag](screen.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML5, CSS3, JavaScript, NASA's API
+Styling for this project was done using CSS Grid & Flexbox. Written in vanilla Javascript using the fetch method to access an API.
+
+## Lessons Learned:
+Learned how to use a fetch command to access NASA's APOD API and use that data to retrieve the picture of the day for any given day. Also called different properties in a JSON file looped though the different objects in the JSON file.
+
+## Examples:
+
+**OOP Calculator:** https://github.com/Eriquette/week01-alumni-project-calculator/tree/answer
+
+**Weather API** https://github.com/ericamendez/weather-api-bootcamp2018c-week07/tree/answer
+
+**Daily Code Challenges:** https://github.com/Eriquette/Daily-Code-Challenges

@@ -23,8 +23,8 @@ function fetchPicture(){
           info.textContent = response.explanation;
           image.src = response.url;
           credit.textContent = "Photo By: "+response.copyright;
-        }else{
-          video.style.display= "grid";
+        }else if (response.media_type == "video"){
+          video.style.display= "flex";
           video.src = response.url;
           credit.textContent = "Video By: "+response.copyright;
         }
