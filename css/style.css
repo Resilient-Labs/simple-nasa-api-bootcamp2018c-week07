@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family: 'Abel', sans-serif;
+}
+
+/***************************************
+LAYOUTTTTTTT
+*****************************************/
+.container{
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  text-align: center;
+}
+
+.text{
+  margin:30px 60px;
+  font-size: 1.2em;
+  border-left: none;
+  padding: 0 0 0 20px;
+}
+
+.imgCon{
+  width:70%;
+}
+
+h1{
+  font-size: 3em;
+  margin: 20px 0;
+  color: rgb(46, 46, 46);
+}
+
+input{
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  outline: none;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: none;
+  border-bottom: none;
+  padding: 0 10px;
+}
+
+
+img{
+  width:100%;
+}
+
+p{
+  margin-top: 0;
+}
+
+#describe{
+  margin-bottom: 0;
+}
+
+#vid{
+  display: none;
+}
