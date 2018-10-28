@@ -1,0 +1,33 @@
+body {
+  width: 550px;
+  margin: auto;
+  font-family: 'Shadows Into Light', sans-serif;
+  text-align: center;
+  background-color: #361F27;
+  color: #917b8e;
+  margin: auto;
+  font-size: 30px;
+}
+h1 {
+  border-bottom: 1px solid #ccb58d;
+}
+
+#sub {
+    background-color: #917b8e;
+    border: none;
+    color: #361F27;
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-weight: bold;
+}
+input {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 20px;
+  color: #ccb58d;
+  font-weight: bold;
+  background-color: #ecebe9;
+}
+ .pic {
+   text-align: center;
+ }
