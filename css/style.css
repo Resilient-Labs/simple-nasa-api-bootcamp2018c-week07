@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: lightgray;
+  font-family: 'Smokum';
+  font-size: 30px;
+}
+body{
+  background-image: url("../images/border.jpg");
+  background-size: cover;
+}
+img{
+  height: 550px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#vid{
+  height: 550px;
+  width: 50%;
+}
+input, button{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+p{
+  font-family: 'Marmelad';
+  width: 60%;
+  margin-left: 18%;
+}
+.hidden{
+  display: none;
+}
+h1{
+  padding-top: 70px;
+}
